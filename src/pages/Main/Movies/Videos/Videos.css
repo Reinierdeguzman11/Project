@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.videos-container {
+  width: 30%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.videos-title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.add-video-form {
+  text-align: left;
+}
+
+.add-video-form h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 12px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-field,
+.select-field {
+  width: 100%;
+  padding: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+.input-field:focus,
+.select-field:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #218838;
+}
+
+.reset-button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: #c82333;
+}

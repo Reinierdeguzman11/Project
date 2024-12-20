@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 1362px;
+  background: url('../../../../public/login.jpg') no-repeat center center;
+  background-size: cover;
+  background-color: #f3f3f3;
+}
+
+.login-container {
+  background: #fffffff1;
+  color: #000;
+  border-radius: 10px;
+  padding: 30px 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.login-subtitle {
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:hover {
+  box-shadow: 0px 0px 5px rgba(69, 123, 157, 0.5);
+  outline: none;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .show-password-btn {
+  position: absolute;
+  right: -15px;
+  top: 35%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #00000091;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.password-container .show-password-btn:hover {
+  color: #000000d8;
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: #ffd000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-btn:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+
+.login-btn:hover:not(:disabled) {
+  background-color: #ecb719;
+  transform: scale(1.05);
+}
+
+.error-message {
+  font-size: 0.85rem;
+  color: #e63946;
+  margin-top: 5px;
+}
+
+.register-link {
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #0059ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+  color: #1d3557;
+  text-decoration: underline;
+}
+
+.register-link {
+  color: #6b7f91;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
